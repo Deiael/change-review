@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Change Review",
+    "description": "Review board for agent file edits: list diffs, keep changes, or revert them."
+  }
+}
