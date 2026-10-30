@@ -1,6 +1,6 @@
 # change-review
 
-[![dsh.pub](https://dsh.pub/badge/Deiael/change-review.svg)](https://dsh.pub/plugins/Deiael/change-review)
+[![dsh.pub registry status](https://dsh.pub/api/badges/Deiael/change-review.svg)](https://dsh.pub/en/plugins/?q=Deiael%2Fchange-review)
 
 DeepSeek Harness **Host 组合包**：改动审查台 + 按 diff 推理的开发自测。
 
