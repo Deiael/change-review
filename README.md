@@ -8,6 +8,8 @@ DeepSeek Harness **Host 组合包**：改动审查台 + 按 diff 推理的开发
 
 This is a community plugin. Listing on dsh.pub only means the public bundle contract passed automated checks; it is not an official DeepSeek product, security audit, or quality score.
 
+**English:** Host bundle for DeepSeek Harness. It snapshots `ctx.fs.writeText` / `editText` so you can list, diff, accept, or revert agent edits. After that, `change_review_scope` infers files, symbols, and routes from pending/accepted diffs. `change_review_selftest` then plans unit tests, edge tests, or same-origin exploratory HTTP probes. Put `exploreBaseUrl` and `exploreToken` in plugin settings; the token is never printed in tool output. Install with `npx dshpub add Deiael/change-review --profile web`. See the tables below for config, tools, disable, and uninstall.
+
 ## 能力
 
 | 面 | 说明 |
