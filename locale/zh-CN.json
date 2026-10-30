@@ -1,6 +1,6 @@
 {
   "meta": {
     "title": "改动审查台",
-    "description": "审查智能体改过的文件：查看 diff、保留或还原。"
+    "description": "审查文件改动，并按 diff 做代码自测、边缘测试和探索性测试。"
   }
 }

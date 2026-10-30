@@ -1,7 +1,7 @@
 {
   "name": "change-review",
-  "version": "0.1.0",
-  "description": "Change review board for DeepSeek Harness: list, diff, accept, and revert agent file edits.",
+  "version": "0.2.0",
+  "description": "DSH change review board: list/diff/accept/revert agent file edits, then run diff-scoped unit, edge, and exploratory self-tests.",
   "type": "module",
   "main": "./index.js",
   "exports": {
@@ -16,7 +16,8 @@
     "cordis.patch.yml",
     "locale",
     "icon.svg",
-    "README.md"
+    "README.md",
+    "LICENSE"
   ],
   "scripts": {
     "test": "node --test"
@@ -24,12 +25,22 @@
   "keywords": [
     "deepseek-harness",
     "dsh",
+    "dsh-plugin",
     "dsh-bundle",
     "cordis",
     "review",
-    "diff"
+    "diff",
+    "selftest"
   ],
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Deiael/change-review.git"
+  },
+  "homepage": "https://github.com/Deiael/change-review#readme",
+  "bugs": {
+    "url": "https://github.com/Deiael/change-review/issues"
+  },
   "engines": {
     "node": ">=22"
   },
@@ -41,6 +52,7 @@
   },
   "peerDependencies": {
     "@deepseek-ai/cordis": "*",
-    "@deepseek-ai/dsh-tools": "*"
+    "@deepseek-ai/dsh-tools": "*",
+    "@deepseek-ai/schemastery": "*"
   }
 }

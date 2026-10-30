@@ -1,6 +1,6 @@
 {
   "meta": {
     "title": "Change Review",
-    "description": "Review board for agent file edits: list diffs, keep changes, or revert them."
+    "description": "Review agent file edits, then run diff-scoped unit, edge, and exploratory self-tests."
   }
 }
